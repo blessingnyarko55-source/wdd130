@@ -1,19 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #333;
+nav {
+    background-color: #0008b0;
+    padding: 10px;
 }
 
 nav a {
-background-color: #00f
-color: #00f;
+color: white;
+display: block;
+padding: 20px;
 }
 
 h1 {
-    color: #000
+    color: #000800;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 10px;
 }
 
 main {
@@ -21,17 +29,17 @@ max-width: 840px
 }
 
 main img {
-width: 100%
+width: 95%;
 height: auto;
 padding: 2px;
-border: 0 0 20px solid #333;
-box-shadow: #000
+border: 0 0 10px solid #333;
+box-shadow: #000;
 text-align: center;
 }
 
 section {
     border: 1px solid #333;
-    padding: 5px;
+    padding: 2px;
     background-color: #f0f0f0;
     text-align: center;
 
@@ -45,7 +53,7 @@ aside {
     width: 200px;
     margin: 2rem;
     border: 1px solid #333;
-    padding: 5px;
+    padding: 2px;
     background-color: #f0f0f0;
     text-align: center;
 }
